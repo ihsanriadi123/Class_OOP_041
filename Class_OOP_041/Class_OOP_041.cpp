@@ -39,3 +39,9 @@ void matakuliah::inputmk() {
 	cout << "Masukkan Sks Mata Kuliah : ";
 	cin >> sks;
 }
+
+void matakuliah::tampilmk() {
+	cout << "\nKode : " << kode << endl;
+	cout << "Nama MataKuliah : " << namamk << endl;
+	cout << "jumlah SKS : " << sks << endl;
+}
